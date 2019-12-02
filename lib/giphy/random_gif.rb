@@ -4,6 +4,10 @@ module Giphy
       @hash = hash
     end
 
+    def to_h
+      @hash
+    end
+
     def id
       hash.fetch('id')
     end
