@@ -52,8 +52,6 @@ module Giphy
       hash.fetch('tags')
     end
 
-    private
-
     attr_reader :hash
   end
 end
